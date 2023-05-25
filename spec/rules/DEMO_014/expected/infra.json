@@ -1,0 +1,70 @@
+[
+  {
+    "passed": false,
+    "ignored": false,
+    "resource_id": "aws_instance.invalid",
+    "resource_namespace": "spec/rules/DEMO_014/inputs/infra.tf",
+    "resource_type": "aws_instance",
+    "severity": "high",
+    "resources": [
+      {
+        "id": "aws_instance.invalid",
+        "type": "aws_instance",
+        "namespace": "spec/rules/DEMO_014/inputs/infra.tf",
+        "location": [
+          {
+            "filepath": "spec/rules/DEMO_014/inputs/infra.tf",
+            "line": 21,
+            "column": 1
+          }
+        ],
+        "attributes": [
+          {
+            "path": [
+              "ami"
+            ],
+            "location": {
+              "filepath": "spec/rules/DEMO_014/inputs/infra.tf",
+              "line": 22,
+              "column": 3
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "passed": true,
+    "ignored": false,
+    "resource_id": "aws_instance.valid",
+    "resource_namespace": "spec/rules/DEMO_014/inputs/infra.tf",
+    "resource_type": "aws_instance",
+    "severity": "high",
+    "resources": [
+      {
+        "id": "aws_instance.valid",
+        "type": "aws_instance",
+        "namespace": "spec/rules/DEMO_014/inputs/infra.tf",
+        "location": [
+          {
+            "filepath": "spec/rules/DEMO_014/inputs/infra.tf",
+            "line": 15,
+            "column": 1
+          }
+        ],
+        "attributes": [
+          {
+            "path": [
+              "ami"
+            ],
+            "location": {
+              "filepath": "spec/rules/DEMO_014/inputs/infra.tf",
+              "line": 16,
+              "column": 3
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
