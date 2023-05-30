@@ -26,30 +26,31 @@ your organization.
 
 **Using the [Snyk CLI]([url](https://docs.snyk.io/snyk-cli)), here are the steps to get started:**
 
-### Create a Custom Rules Project
+### 1. Create a Directory for Your Custom Rules Project
+```sh
+mkdir cloud_to_iac_custom_rules_example
+```
 
+### 2. Create a Custom Rules Project
 ```sh
 snyk iac rules init
 ```
 The snyk iac rules init command is an interactive command for initializing a new custom rules project structure, a new rule in an existing custom rules project, a new spec in an existing custom rules project, or a new relation in an existing custom rules project.
 
 
-### Test Your Custom Rules
-
+### 3. Test Your Custom Rules
 ```sh
 snyk iac rules
 ```
 The snyk iac rules test command runs all the tests written in Rego.
 
-### Build, Bundle and Upload Your Custom Rules
-
+### 4. Build, Bundle and Upload Your Custom Rules
 ```sh
 snyk iac rules push
 ```
 For a list of related commands run snyk iac --help
 
-### Viewing Issues Created by Custom Rules
-
+### 5. Viewing Issues Created by Custom Rules
 ```sh
 snyk iac test --report
 ```
