@@ -40,29 +40,36 @@ The snyk iac rules init command is an interactive command for initializing a new
 **By following the interactive CLI after using "snyk iac rules init" command:**
 
 1. Create a project
+
+```sh
 $Filter: Type to filter choices
 $  ▸ project
 $    rule
 $    rule spec
 $    relation
+```
 
 Follow the interactive prompts to finish creating project.
 
 2. Create a rule
-* $Filter: Type to filter choices
+```sh
+$Filter: Type to filter choices
 $    project
 $  ▸ rule
 $    rule spec
 $    relation
+```
 
 Follow the interactive prompts to finish creating rule.
 
 3. Create a rule spec for testing
+```sh
 $Filter: Type to filter choices
 $    project
 $    rule
 $  ▸ rule spec
 $    relation
+```
 
 Follow the interactive prompts to finish creating rule spec for testing.
 
