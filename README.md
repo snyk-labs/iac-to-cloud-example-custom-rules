@@ -73,21 +73,19 @@ $    relation
 
 Follow the interactive prompts to finish creating rule spec for testing.
 
-## Getting Started with this Repository
+## Getting Started Building and Testing with the Project in this Repository or Your Own Custom Rules Project
 
-### 1. Test Your Custom Rules
-```sh
-snyk iac rules
-```
-The snyk iac rules test command runs all the tests written in Rego.
-
-### 2. Build, Bundle and Upload Your Custom Rules
+### 1. Build, Bundle and Upload Your Custom Rules
 ```sh
 snyk iac rules push
 ```
 For a list of related commands run snyk iac --help
 
-### 5. Viewing Issues Created by Custom Rules
+### 2. Test Your Custom Rules
 ```sh
-snyk iac test --report
+snyk iac test --custom-rules --report spec/rules/*/fixtures/*.tf
 ```
+The snyk iac rules test command runs all the tests written in Rego.
+
+### 5. Viewing Issues Created by Custom Rules
+Using the link provided in the output from the previous command, view the issues created by the custom rules.
