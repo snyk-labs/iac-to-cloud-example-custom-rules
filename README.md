@@ -28,7 +28,9 @@ your organization.
 
 **Using the [Snyk CLI]([url](https://docs.snyk.io/snyk-cli)), here are the steps to get started:**
 
-1. Snyk iac rules init - 
+```sh
+Snyk iac rules init
+```
 The snyk iac rules init command is an interactive command for initializing a new custom rules project structure, a new rule in an existing custom rules project, a new spec in an existing custom rules project, or a new relation in an existing custom rules project.
 
 
