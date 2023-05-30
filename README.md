@@ -8,11 +8,11 @@ Issues on any Terraform IaC configurations using Terraform providers - beyond cl
 
 **Using the [Snyk CLI]([url](https://docs.snyk.io/snyk-cli)), here are the steps to get started:**
 
-1. Snyk iac rules init
+1. Snyk iac rules init - 
 The snyk iac rules init command is an interactive command for initializing a new custom rules project structure, a new rule in an existing custom rules project, a new spec in an existing custom rules project, or a new relation in an existing custom rules project.
 
-2. Snyk iac rules
+2. Snyk iac rules - 
 The snyk iac rules test command runs all the tests written in Rego.
 
-3. Snyk iac rules push
+3. Snyk iac rules push - 
 For a list of related commands run snyk iac --help
