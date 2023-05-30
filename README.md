@@ -8,6 +8,20 @@ IaC to Cloud Custom Rules enables security teams to enforce security controls th
 Issues on cloud configurations across the SDLC, from IaC templates to deployed cloud environments
 Issues on any Terraform IaC configurations using Terraform providers - beyond cloud (AWS, Azure, Google Cloud) configurations, such as GitHub configurations.
 
+## Prerequisites
+
+The following tools need to be installed and in your `PATH`:
+
+* `snyk` CLI >= 1.1168.0 - [Link to project](https://github.com/snyk/cli)
+* `jq`
+
+You must also enable Integrated Snyk IaC in your organization (not described in
+this document) and enable the `snykCloudCustomRules` feature flag.
+
+**IMPORTANT:** you must have at least one cloud or integrated IaC environment
+already in your organization. This is necessary for Snyk Cloud to know about
+your organization.
+
 ## Getting Started
 
 **Using the [Snyk CLI]([url](https://docs.snyk.io/snyk-cli)), here are the steps to get started:**
