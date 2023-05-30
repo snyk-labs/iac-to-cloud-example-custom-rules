@@ -49,7 +49,7 @@ $    relation
 Follow the interactive prompts to finish creating project.
 
 2. Create a rule
-$Filter: Type to filter choices
+* $Filter: Type to filter choices
 $    project
 $  ▸ rule
 $    rule spec
