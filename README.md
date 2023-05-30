@@ -83,7 +83,7 @@ For a list of related commands run snyk iac --help
 
 ### 2. Test Your Custom Rules
 ```sh
-snyk iac test --custom-rules --report spec/rules/*/fixtures/*.tf
+snyk iac test --custom-rules --report
 ```
 The snyk iac rules test command runs all the tests written in Rego.
 
