@@ -52,3 +52,8 @@ The snyk iac rules test command runs all the tests written in Rego.
 
 ### 5. Viewing Issues Created by Custom Rules
 Using the link provided in the output from the previous `snyk iac test` command, view the issues created by the custom rules.
+
+### 6. Delete Custom Rules Bundle
+```sh
+snyk iac rules push --delete
+```
