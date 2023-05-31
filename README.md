@@ -4,6 +4,7 @@ Snyk IaC to Cloud Custom Rules is in beta. This repository contains example cust
 ## Overview
 
 **Enforce Your Team’s Unique Security Controls Across the SDLC:**
+
 IaC to Cloud Custom Rules enables security teams to enforce security controls that are specific to their organization’s unique needs, by leveraging both pre-defined Snyk security rules and custom rules. With custom rules, AppSec teams can surface:
 Issues on cloud configurations across the SDLC, from IaC templates to deployed cloud environments
 Issues on any Terraform IaC configurations using Terraform providers - beyond cloud (AWS, Azure, Google Cloud) configurations, such as GitHub configurations.
