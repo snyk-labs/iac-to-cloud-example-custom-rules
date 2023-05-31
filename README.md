@@ -45,6 +45,12 @@ snyk iac rules test
 ```
 
 ### 4. Test Actual Terraform Code With Your Custom Rules
+Creates expected output based on terraform in the /inputs/ folder:
+```sh
+snyk iac rules test --update-expected
+```
+
+tests what's in the input and compares with expected output:
 ```sh
 snyk iac test --custom-rules --report spec/rules/*/inputs/*.tf
 ```
