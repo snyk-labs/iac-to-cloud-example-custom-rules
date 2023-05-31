@@ -25,17 +25,24 @@ your organization.
 
 ## Getting Started - Build, Bundle, and Test
 
-### 1. Build, Bundle and Upload Your Custom Rules
+### 1. Configuration Authentication - Set your organization's ID and API token
+```sh
+export SNYK_ORG_ID='<your organization ID>'
+```
+```sh
+export SNYK_TOKEN='<your API token>'
+```
+### 2. Build, Bundle and Upload Your Custom Rules
 ```sh
 snyk iac rules push
 ```
 For a list of related commands run snyk iac --help
 
-### 2. Test Your Custom Rules
+### 3. Test Your Custom Rules
 ```sh
 snyk iac test --custom-rules --report
 ```
 The snyk iac rules test command runs all the tests written in Rego.
 
-### 5. Viewing Issues Created by Custom Rules
+### 4. Viewing Issues Created by Custom Rules
 Using the link provided in the output from the previous command, view the issues created by the custom rules.
