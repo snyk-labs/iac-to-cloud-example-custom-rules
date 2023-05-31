@@ -54,7 +54,7 @@ snyk iac rules test --update-expected
 
 tests what's in the input and compares with expected output:
 ```sh
-snyk iac test --custom-rules --report spec/rules/*/inputs/*.tf
+snyk iac test --custom-rules --experimental --report spec/rules/*/inputs/*.tf
 ```
 The snyk iac rules test command runs all the tests written in Rego.
 
