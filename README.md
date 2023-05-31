@@ -34,7 +34,7 @@ export SNYK_TOKEN='<your API token>'
 ```
 
 ### 2. Build, Bundle and Upload Your Custom Rules
-This changes the manifest.json file:
+This changes the manifest.json file with a push key (custom_rule_id and organization_id):
 
 ```sh
 snyk iac rules push
