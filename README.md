@@ -34,7 +34,7 @@ export SNYK_TOKEN='<your API token>'
 ```
 ### 2. Build, Bundle and Upload Your Custom Rules
 ```sh
-snyk iac rules push
+snyk iac rules push --org=<your org's name>
 ```
 For a list of related commands run snyk iac --help
 
