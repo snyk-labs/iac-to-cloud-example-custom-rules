@@ -45,4 +45,4 @@ snyk iac test --custom-rules --report spec/rules/*/inputs/*.tf
 The snyk iac rules test command runs all the tests written in Rego.
 
 ### 4. Viewing Issues Created by Custom Rules
-Using the link provided in the output from the previous `snyk iac test ...` command, view the issues created by the custom rules.
+Using the link provided in the output from the previous `snyk iac test` command, view the issues created by the custom rules.
