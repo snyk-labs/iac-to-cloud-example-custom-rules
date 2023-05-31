@@ -22,58 +22,7 @@ this document) and enable the `snykCloudCustomRules` feature flag.
 already in your organization. This is necessary for Snyk Cloud to know about
 your organization.
 
-## Getting Started on a New Project (you can skip by using this repository)
-
-**Using the [Snyk CLI]([url](https://docs.snyk.io/snyk-cli)), here are the steps to get started:**
-
-### 1. Create a Directory for Your Custom Rules Project
-```sh
-mkdir cloud_to_iac_custom_rules_example
-```
-
-### 2. Create a Custom Rules Project
-```sh
-snyk iac rules init
-```
-The snyk iac rules init command is an interactive command for initializing a new custom rules project structure, a new rule in an existing custom rules project, a new spec in an existing custom rules project, or a new relation in an existing custom rules project.
-
-**By following the interactive CLI after using "snyk iac rules init" command:**
-
-1. Create a project
-
-```sh
-$Filter: Type to filter choices
-$  ▸ project
-$    rule
-$    rule spec
-$    relation
-```
-
-Follow the interactive prompts to finish creating project.
-
-2. Create a rule
-```sh
-$Filter: Type to filter choices
-$    project
-$  ▸ rule
-$    rule spec
-$    relation
-```
-
-Follow the interactive prompts to finish creating rule.
-
-3. Create a rule spec for testing
-```sh
-$Filter: Type to filter choices
-$    project
-$    rule
-$  ▸ rule spec
-$    relation
-```
-
-Follow the interactive prompts to finish creating rule spec for testing.
-
-## Getting Started Building and Testing with the Project in this Repository or Your Own Custom Rules Project
+## Getting Started - Build, Bundle, and Test
 
 ### 1. Build, Bundle and Upload Your Custom Rules
 ```sh
