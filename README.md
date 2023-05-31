@@ -32,17 +32,23 @@ export SNYK_ORG_ID='<your organization ID>'
 ```sh
 export SNYK_TOKEN='<your API token>'
 ```
+
 ### 2. Build, Bundle and Upload Your Custom Rules
 ```sh
 snyk iac rules push
 ```
 For a list of related commands run snyk iac --help
 
-### 3. Test Your Custom Rules
+### 3. Run the Unit Tests On Your Custom Rules
+```sh
+snyk iac rules test
+```
+
+### 4. Test Actual Terraform Code With Your Custom Rules
 ```sh
 snyk iac test --custom-rules --report spec/rules/*/inputs/*.tf
 ```
 The snyk iac rules test command runs all the tests written in Rego.
 
-### 4. Viewing Issues Created by Custom Rules
+### 5. Viewing Issues Created by Custom Rules
 Using the link provided in the output from the previous `snyk iac test` command, view the issues created by the custom rules.
