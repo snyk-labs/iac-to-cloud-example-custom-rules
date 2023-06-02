@@ -1,5 +1,5 @@
 # Snyk Cloud to IaC Example Rules
-Snyk IaC to Cloud Custom Rules is in beta. This repository contains example custom rules to help you get started.
+Snyk IaC to Cloud Custom Rules is in beta. **This repository contains example custom rules to help you get started.**
 
 ## Overview
 
