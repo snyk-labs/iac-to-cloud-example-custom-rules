@@ -33,15 +33,7 @@ export SNYK_ORG_ID='<your organization ID>'
 export SNYK_TOKEN='<your API token>'
 ```
 
-### 2. Build, Bundle and Upload Your Custom Rules
-This changes the manifest.json file with a push key (custom_rule_id and organization_id):
-
-```sh
-snyk iac rules push
-```
-For a list of related commands run snyk iac --help
-
-### 3. Run the Unit Tests On Your Custom Rules
+### 2. Run the Rules Specs (Unit Tests) On Your Custom Rules
 ```sh
 snyk iac rules test
 ```
@@ -50,6 +42,14 @@ Runs unit test and creates or overwrites expected output based on terraform in t
 ```sh
 snyk iac rules test --update-expected
 ```
+
+### 3. Build, Bundle and Upload Your Custom Rules
+This changes the manifest.json file with a push key (custom_rule_id and organization_id):
+
+```sh
+snyk iac rules push
+```
+For a list of related commands run snyk iac --help
 
 ### 4. Test Actual Terraform Code With Your Custom Rules
 tests what's in the input and compares with expected output:
