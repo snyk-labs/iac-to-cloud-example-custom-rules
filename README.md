@@ -1,4 +1,8 @@
-# Snyk Cloud to IaC Example Rules
+<p align="center">
+  <img src="https://snyk.io/style/asset/logo/snyk-print.svg" />
+</p>
+
+# Snyk IaC to Cloud Example Custom Rules
 Snyk IaC to Cloud Custom Rules is in beta. **This repository contains example custom rules to help you get started.**
 
 ## Overview
