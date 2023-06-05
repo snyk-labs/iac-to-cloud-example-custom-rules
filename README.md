@@ -16,9 +16,6 @@ The following tools need to be installed and in your `PATH`:
 * `snyk` CLI >= 1.1168.0 - [Link to project](https://github.com/snyk/cli)
 * `jq`
 
-You must also enable Integrated Snyk IaC in your organization (not described in
-this document) and enable the `snykCloudCustomRules` feature flag.
-
 **IMPORTANT:** you must have at least one cloud or integrated IaC environment
 already in your organization. This is necessary for Snyk Cloud to know about
 your organization.
