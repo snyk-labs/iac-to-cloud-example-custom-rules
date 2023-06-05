@@ -1,0 +1,1 @@
+@johnrk and @ricardosnyk are the code owners of this project.
