@@ -28,10 +28,10 @@ your organization.
 
 ### 1. Configuration Authentication - Set your organization's ID and API token
 ```sh
-export SNYK_ORG_ID='<your organization ID>'
+export SNYK_ORG_ID=<your organization ID>
 ```
 ```sh
-export SNYK_TOKEN='<your API token>'
+export SNYK_TOKEN=<your API token>
 ```
 
 ### 2. Run the Rules Specs (Unit Tests) On Your Custom Rules
