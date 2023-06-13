@@ -12,14 +12,14 @@
  # See the License for the specific language governing permissions and
  # limitations under the License.
 
-package rules.DEMO_014
+package rules.APPROVED_AMIS
 
 import data.snyk
 
 input_type := "tf"
 
 metadata := {
-	"id": "DEMO-014",
+	"id": "APPROVED-AMIS",
 	"title": "EC2 instance is using an unapproved AMI",
 	"severity": "high",
 	"description": "We maintain a list of approved AMIs that fit our security and compliance needs. All DemoCorp EC2 instances must use one of these AMIs.",
