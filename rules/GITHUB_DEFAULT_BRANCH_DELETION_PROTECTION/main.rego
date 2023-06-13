@@ -12,7 +12,7 @@
  # See the License for the specific language governing permissions and
  # limitations under the License.
 
-package rules.DEMO_001
+package rules.GITHUB_DEFAULT_BRANCH_DELETION_PROTECTION
 
 import data.snyk
 
@@ -21,7 +21,7 @@ resource_type := "MULTIPLE"
 input_type := "tf"
 
 metadata := {
-	"id": "DEMO-001",
+	"id": "GITHUB-DEFAULT-BRANCH-DELETION-PROTECTION",
 	"title": "Default branch deletion protection not enabled",
 	"severity": "high",
 	"description": "The history of the default branch is not protected against deletion for this repository.",

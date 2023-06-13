@@ -3,17 +3,17 @@
     "passed": false,
     "ignored": false,
     "resource_id": "github_repository.invalid",
-    "resource_namespace": "spec/rules/DEMO_001/inputs/infra.tf",
+    "resource_namespace": "spec/rules/GITHUB_DEFAULT_BRANCH_DELETION_PROTECTION/inputs/infra.tf",
     "resource_type": "github_repository",
     "severity": "high",
     "resources": [
       {
         "id": "github_repository.invalid",
         "type": "github_repository",
-        "namespace": "spec/rules/DEMO_001/inputs/infra.tf",
+        "namespace": "spec/rules/GITHUB_DEFAULT_BRANCH_DELETION_PROTECTION/inputs/infra.tf",
         "location": [
           {
-            "filepath": "spec/rules/DEMO_001/inputs/infra.tf",
+            "filepath": "spec/rules/GITHUB_DEFAULT_BRANCH_DELETION_PROTECTION/inputs/infra.tf",
             "line": 29,
             "column": 1
           }
@@ -24,7 +24,7 @@
               "name"
             ],
             "location": {
-              "filepath": "spec/rules/DEMO_001/inputs/infra.tf",
+              "filepath": "spec/rules/GITHUB_DEFAULT_BRANCH_DELETION_PROTECTION/inputs/infra.tf",
               "line": 30,
               "column": 3
             }
@@ -34,7 +34,7 @@
               "node_id"
             ],
             "location": {
-              "filepath": "spec/rules/DEMO_001/inputs/infra.tf",
+              "filepath": "spec/rules/GITHUB_DEFAULT_BRANCH_DELETION_PROTECTION/inputs/infra.tf",
               "line": 29,
               "column": 1
             }
@@ -47,17 +47,17 @@
     "passed": false,
     "ignored": false,
     "resource_id": "github_repository.invalid_explicit",
-    "resource_namespace": "spec/rules/DEMO_001/inputs/infra.tf",
+    "resource_namespace": "spec/rules/GITHUB_DEFAULT_BRANCH_DELETION_PROTECTION/inputs/infra.tf",
     "resource_type": "github_repository",
     "severity": "high",
     "resources": [
       {
         "id": "github_branch_protection.invalid_explicit",
         "type": "github_branch_protection",
-        "namespace": "spec/rules/DEMO_001/inputs/infra.tf",
+        "namespace": "spec/rules/GITHUB_DEFAULT_BRANCH_DELETION_PROTECTION/inputs/infra.tf",
         "location": [
           {
-            "filepath": "spec/rules/DEMO_001/inputs/infra.tf",
+            "filepath": "spec/rules/GITHUB_DEFAULT_BRANCH_DELETION_PROTECTION/inputs/infra.tf",
             "line": 37,
             "column": 1
           }
@@ -68,7 +68,7 @@
               "allows_deletions"
             ],
             "location": {
-              "filepath": "spec/rules/DEMO_001/inputs/infra.tf",
+              "filepath": "spec/rules/GITHUB_DEFAULT_BRANCH_DELETION_PROTECTION/inputs/infra.tf",
               "line": 40,
               "column": 3
             }
@@ -78,7 +78,7 @@
               "repository_id"
             ],
             "location": {
-              "filepath": "spec/rules/DEMO_001/inputs/infra.tf",
+              "filepath": "spec/rules/GITHUB_DEFAULT_BRANCH_DELETION_PROTECTION/inputs/infra.tf",
               "line": 38,
               "column": 3
             }
@@ -88,10 +88,10 @@
       {
         "id": "github_repository.invalid_explicit",
         "type": "github_repository",
-        "namespace": "spec/rules/DEMO_001/inputs/infra.tf",
+        "namespace": "spec/rules/GITHUB_DEFAULT_BRANCH_DELETION_PROTECTION/inputs/infra.tf",
         "location": [
           {
-            "filepath": "spec/rules/DEMO_001/inputs/infra.tf",
+            "filepath": "spec/rules/GITHUB_DEFAULT_BRANCH_DELETION_PROTECTION/inputs/infra.tf",
             "line": 33,
             "column": 1
           }
@@ -102,7 +102,7 @@
               "name"
             ],
             "location": {
-              "filepath": "spec/rules/DEMO_001/inputs/infra.tf",
+              "filepath": "spec/rules/GITHUB_DEFAULT_BRANCH_DELETION_PROTECTION/inputs/infra.tf",
               "line": 34,
               "column": 3
             }
@@ -112,7 +112,7 @@
               "node_id"
             ],
             "location": {
-              "filepath": "spec/rules/DEMO_001/inputs/infra.tf",
+              "filepath": "spec/rules/GITHUB_DEFAULT_BRANCH_DELETION_PROTECTION/inputs/infra.tf",
               "line": 33,
               "column": 1
             }
@@ -125,17 +125,17 @@
     "passed": true,
     "ignored": false,
     "resource_id": "github_repository.valid_by_name",
-    "resource_namespace": "spec/rules/DEMO_001/inputs/infra.tf",
+    "resource_namespace": "spec/rules/GITHUB_DEFAULT_BRANCH_DELETION_PROTECTION/inputs/infra.tf",
     "resource_type": "github_repository",
     "severity": "high",
     "resources": [
       {
         "id": "github_branch_protection.valid_by_name",
         "type": "github_branch_protection",
-        "namespace": "spec/rules/DEMO_001/inputs/infra.tf",
+        "namespace": "spec/rules/GITHUB_DEFAULT_BRANCH_DELETION_PROTECTION/inputs/infra.tf",
         "location": [
           {
-            "filepath": "spec/rules/DEMO_001/inputs/infra.tf",
+            "filepath": "spec/rules/GITHUB_DEFAULT_BRANCH_DELETION_PROTECTION/inputs/infra.tf",
             "line": 14,
             "column": 1
           }
@@ -146,7 +146,7 @@
               "allows_deletions"
             ],
             "location": {
-              "filepath": "spec/rules/DEMO_001/inputs/infra.tf",
+              "filepath": "spec/rules/GITHUB_DEFAULT_BRANCH_DELETION_PROTECTION/inputs/infra.tf",
               "line": 14,
               "column": 1
             }
@@ -156,7 +156,7 @@
               "repository_id"
             ],
             "location": {
-              "filepath": "spec/rules/DEMO_001/inputs/infra.tf",
+              "filepath": "spec/rules/GITHUB_DEFAULT_BRANCH_DELETION_PROTECTION/inputs/infra.tf",
               "line": 15,
               "column": 3
             }
@@ -166,10 +166,10 @@
       {
         "id": "github_repository.valid_by_name",
         "type": "github_repository",
-        "namespace": "spec/rules/DEMO_001/inputs/infra.tf",
+        "namespace": "spec/rules/GITHUB_DEFAULT_BRANCH_DELETION_PROTECTION/inputs/infra.tf",
         "location": [
           {
-            "filepath": "spec/rules/DEMO_001/inputs/infra.tf",
+            "filepath": "spec/rules/GITHUB_DEFAULT_BRANCH_DELETION_PROTECTION/inputs/infra.tf",
             "line": 10,
             "column": 1
           }
@@ -180,7 +180,7 @@
               "name"
             ],
             "location": {
-              "filepath": "spec/rules/DEMO_001/inputs/infra.tf",
+              "filepath": "spec/rules/GITHUB_DEFAULT_BRANCH_DELETION_PROTECTION/inputs/infra.tf",
               "line": 11,
               "column": 3
             }
@@ -190,7 +190,7 @@
               "node_id"
             ],
             "location": {
-              "filepath": "spec/rules/DEMO_001/inputs/infra.tf",
+              "filepath": "spec/rules/GITHUB_DEFAULT_BRANCH_DELETION_PROTECTION/inputs/infra.tf",
               "line": 10,
               "column": 1
             }
@@ -203,17 +203,17 @@
     "passed": true,
     "ignored": false,
     "resource_id": "github_repository.valid_by_node_id",
-    "resource_namespace": "spec/rules/DEMO_001/inputs/infra.tf",
+    "resource_namespace": "spec/rules/GITHUB_DEFAULT_BRANCH_DELETION_PROTECTION/inputs/infra.tf",
     "resource_type": "github_repository",
     "severity": "high",
     "resources": [
       {
         "id": "github_branch_protection.valid_by_node_id",
         "type": "github_branch_protection",
-        "namespace": "spec/rules/DEMO_001/inputs/infra.tf",
+        "namespace": "spec/rules/GITHUB_DEFAULT_BRANCH_DELETION_PROTECTION/inputs/infra.tf",
         "location": [
           {
-            "filepath": "spec/rules/DEMO_001/inputs/infra.tf",
+            "filepath": "spec/rules/GITHUB_DEFAULT_BRANCH_DELETION_PROTECTION/inputs/infra.tf",
             "line": 5,
             "column": 1
           }
@@ -224,7 +224,7 @@
               "allows_deletions"
             ],
             "location": {
-              "filepath": "spec/rules/DEMO_001/inputs/infra.tf",
+              "filepath": "spec/rules/GITHUB_DEFAULT_BRANCH_DELETION_PROTECTION/inputs/infra.tf",
               "line": 5,
               "column": 1
             }
@@ -234,7 +234,7 @@
               "repository_id"
             ],
             "location": {
-              "filepath": "spec/rules/DEMO_001/inputs/infra.tf",
+              "filepath": "spec/rules/GITHUB_DEFAULT_BRANCH_DELETION_PROTECTION/inputs/infra.tf",
               "line": 6,
               "column": 3
             }
@@ -244,10 +244,10 @@
       {
         "id": "github_repository.valid_by_node_id",
         "type": "github_repository",
-        "namespace": "spec/rules/DEMO_001/inputs/infra.tf",
+        "namespace": "spec/rules/GITHUB_DEFAULT_BRANCH_DELETION_PROTECTION/inputs/infra.tf",
         "location": [
           {
-            "filepath": "spec/rules/DEMO_001/inputs/infra.tf",
+            "filepath": "spec/rules/GITHUB_DEFAULT_BRANCH_DELETION_PROTECTION/inputs/infra.tf",
             "line": 1,
             "column": 1
           }
@@ -258,7 +258,7 @@
               "name"
             ],
             "location": {
-              "filepath": "spec/rules/DEMO_001/inputs/infra.tf",
+              "filepath": "spec/rules/GITHUB_DEFAULT_BRANCH_DELETION_PROTECTION/inputs/infra.tf",
               "line": 2,
               "column": 3
             }
@@ -268,7 +268,7 @@
               "node_id"
             ],
             "location": {
-              "filepath": "spec/rules/DEMO_001/inputs/infra.tf",
+              "filepath": "spec/rules/GITHUB_DEFAULT_BRANCH_DELETION_PROTECTION/inputs/infra.tf",
               "line": 1,
               "column": 1
             }
@@ -281,17 +281,17 @@
     "passed": true,
     "ignored": false,
     "resource_id": "github_repository.valid_explicit",
-    "resource_namespace": "spec/rules/DEMO_001/inputs/infra.tf",
+    "resource_namespace": "spec/rules/GITHUB_DEFAULT_BRANCH_DELETION_PROTECTION/inputs/infra.tf",
     "resource_type": "github_repository",
     "severity": "high",
     "resources": [
       {
         "id": "github_branch_protection.valid_explicit",
         "type": "github_branch_protection",
-        "namespace": "spec/rules/DEMO_001/inputs/infra.tf",
+        "namespace": "spec/rules/GITHUB_DEFAULT_BRANCH_DELETION_PROTECTION/inputs/infra.tf",
         "location": [
           {
-            "filepath": "spec/rules/DEMO_001/inputs/infra.tf",
+            "filepath": "spec/rules/GITHUB_DEFAULT_BRANCH_DELETION_PROTECTION/inputs/infra.tf",
             "line": 23,
             "column": 1
           }
@@ -302,7 +302,7 @@
               "allows_deletions"
             ],
             "location": {
-              "filepath": "spec/rules/DEMO_001/inputs/infra.tf",
+              "filepath": "spec/rules/GITHUB_DEFAULT_BRANCH_DELETION_PROTECTION/inputs/infra.tf",
               "line": 26,
               "column": 3
             }
@@ -312,7 +312,7 @@
               "repository_id"
             ],
             "location": {
-              "filepath": "spec/rules/DEMO_001/inputs/infra.tf",
+              "filepath": "spec/rules/GITHUB_DEFAULT_BRANCH_DELETION_PROTECTION/inputs/infra.tf",
               "line": 24,
               "column": 3
             }
@@ -322,10 +322,10 @@
       {
         "id": "github_repository.valid_explicit",
         "type": "github_repository",
-        "namespace": "spec/rules/DEMO_001/inputs/infra.tf",
+        "namespace": "spec/rules/GITHUB_DEFAULT_BRANCH_DELETION_PROTECTION/inputs/infra.tf",
         "location": [
           {
-            "filepath": "spec/rules/DEMO_001/inputs/infra.tf",
+            "filepath": "spec/rules/GITHUB_DEFAULT_BRANCH_DELETION_PROTECTION/inputs/infra.tf",
             "line": 19,
             "column": 1
           }
@@ -336,7 +336,7 @@
               "name"
             ],
             "location": {
-              "filepath": "spec/rules/DEMO_001/inputs/infra.tf",
+              "filepath": "spec/rules/GITHUB_DEFAULT_BRANCH_DELETION_PROTECTION/inputs/infra.tf",
               "line": 20,
               "column": 3
             }
@@ -346,7 +346,7 @@
               "node_id"
             ],
             "location": {
-              "filepath": "spec/rules/DEMO_001/inputs/infra.tf",
+              "filepath": "spec/rules/GITHUB_DEFAULT_BRANCH_DELETION_PROTECTION/inputs/infra.tf",
               "line": 19,
               "column": 1
             }
