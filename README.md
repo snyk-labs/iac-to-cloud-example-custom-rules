@@ -18,7 +18,6 @@ Issues on any Terraform IaC configurations using Terraform providers - beyond cl
 The following tools need to be installed and in your `PATH`:
 
 * `snyk` CLI >= 1.1168.0 - [Link to project](https://github.com/snyk/cli)
-* `jq`
 
 **IMPORTANT:** you must have at least one cloud or integrated IaC environment
 already in your organization. This is necessary for Snyk Cloud to know about
