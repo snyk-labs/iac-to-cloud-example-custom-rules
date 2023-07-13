@@ -54,7 +54,7 @@ For a list of related commands run snyk iac --help
 ### 4. Apply Custom Rules with Terraform Code (or Deployed Cloud Configurations)
 tests what's in the input and compares with expected output:
 ```sh
-snyk iac test --custom-rules --experimental --report spec/rules/*/inputs/*.tf
+snyk iac test --report spec/rules/*/inputs/*.tf
 ```
 The snyk iac rules test command runs all the tests written in Rego.
 
